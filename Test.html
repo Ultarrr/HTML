@@ -1,35 +1,45 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LewLew</title>
-    <style>
-        body {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            background-color: #f0e6f6;
-            font-family: Arial, sans-serif;
-            text-align: center;
-        }
-        .message {
-            background-color: #fff;
-            padding: 20px;
-            border-radius: 10px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-    </style>
-</head>
-<body>
-    <div class="message">
-        <h1>Thân gửi!</h1>
-        <p>AnThao đít thúi</p>
-        <p><strong>Anh yêu em!</strong></p>
-        <br>
-        <img src="AnThao.jpg"
-             width="20%"> 
-    </div>
-</body>
+<html>
+    <head>
+        <title> Wedding Invitation</title>
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <link rel="stylesheet" href="CSS.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+    </head>
+
+    <body>
+
+        <!-- Header / Home-->
+        <header class="display-container wide background-img" id="home">
+            <div class="display-middle text-white center">
+                <h1 class="NAME">Dũng & Thảo</h1>
+                <h2>Wedding Invitation</h2>
+                <h2><b>19.09.2024</b></h2>
+            </div>
+        </header>
+        
+        <!-- Navbar (sticky bottom) -->
+        <div class="bottom">
+            <div class="bar white padding opacity-min hover-opacity-off">
+            <a href="#home" style="width:25%" class="bar-item button">Home</a>
+            <a href="#us" style="width:25%" class="bar-item button">Dũng & Thảo</a>
+            <a href="#wedding" style="width:25%" class="bar-item button">Wedding</a>
+            </div>
+        </div>
+
+        <!-- About / Dung And Thao -->
+        <div class="container padding-64 pale-red grayscale-min" id="us">
+            <div class="content">
+                <h1 class="center text-grey"><b>Dũng & Thảo</b></h1>
+                <img class="round" src="/img/AnThao.jpg" style="width:25%;margin:32px 0 0 120px"  >
+                <p><i>You all know us. And we all know you. We are getting married.</i>
+                </p><br>
+                <p class="center"><a href="#wedding" class="button black round padding-large large">Wedding Details</a></p>
+            </div>
+        </div>
+
+    </body>
 </html>
